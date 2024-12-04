@@ -43,5 +43,8 @@ $routes->post('/paquetes/store', 'PaqueteController::store'); // Guardar un nuev
 $routes->get('/paquetes/(:num)/edit', 'PaqueteController::edit/$1'); // Formulario para editar un paquete
 $routes->post('/paquetes/(:num)/update', 'PaqueteController::update/$1'); // Actualizar un paquete
 $routes->get('/paquetes/(:num)/delete', 'PaqueteController::delete/$1'); // Eliminar un paquete
+//hay que rifar
+
+
 
 $routes->get('/plantilla', 'Home::plantilla'); 
