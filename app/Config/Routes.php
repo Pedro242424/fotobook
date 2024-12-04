@@ -45,6 +45,7 @@ $routes->post('/paquetes/(:num)/update', 'PaqueteController::update/$1'); // Act
 $routes->get('/paquetes/(:num)/delete', 'PaqueteController::delete/$1'); // Eliminar un paquete
 //si se puede
 //loco
+//cositas
 
 
 
